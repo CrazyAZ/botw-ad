@@ -1,0 +1,59 @@
+Rudania:
+- WB + Midair .dir(N):
+    icon: location
+    hide-icon-on-map: true
+    line-color: red
+    movements:
+    - to: [3294.5, -452.875]
+      warp: true
+    - to: [3396.5, -787]
+- Ride up waterfall:
+    coord: [3410, -816]
+- Equip Royal Bow
+- BLSS to Goron City:
+    movements:
+    - to: [3023, -781.5]
+    - to: [1513, -2340]
+- _Npc::Goron<Bludo>:
+    split-type: UserDefined
+    coord: [1713.95, -2446.92]
+- WB .dir(N>>):
+    coord: [1763, -2545.625]
+- .dir(<<N) Turn
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, -2941.37]
+- .dir(<S) Turn
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, -2446.92]
+- Daruk Memory:
+    icon: rudania-memory
+    hide-icon-on-map: true
+- WB .dir(<S) + .dir(E>) + .dir(E):
+    movements:
+    - to: [1763.75, -2367.5]
+    - to: [2020.75, -2329.5]
+    - to: [2132.25,-2279.25]
+- Kill the two moblins:
+    notes: Kill them from farther away to avoid a short cutscene
+- _Npc::Goron<Shoot Yunobo with canon>
+- WB .dir(NE):
+    coord: [2236.5, -2371]
+- Yunobo escort:
+    notes: Shoot all guardians and moblins with Falcon Bow and AA
+    movements:
+    - to: [2307.5, -2373]
+    - to: [2400.25, -2291.75]
+    - to: [2614.75, -2287.25]
+    - to: [2700, -2360.75]
+    - to: [2783, -2538.25]
+    - to: [2800.25, -2657.75]
+    time-override: 360
+- Enter Rudania:
+    split-type: UserDefined
+    icon: rudania-enter
+- .gale() inside:
+    gale: 1
+- Fireblight:
+    split-type: UserDefined
+    icon: rudania-done
+    coord: [2540.5, -2598.5]

@@ -1,0 +1,20 @@
+Calamity:
+- BLSS to Sanctum:
+    notes: Equip Royal Bow
+    line-color: black
+    icon: location
+    hide-icon-on-map: true
+    movements:
+    - to: [1586.625, -2425.375]
+      warp: true
+    - to: [1458, -1886]
+    - to: [-206.75, -1108]
+- Calamity:
+    icon: calamity
+    split-type: UserDefined
+    coord: [-256,-1060.9]
+    notes: Kill with GEB + AA and Furies
+- Dark Beast:
+    icon: ganon
+    split-type: UserDefined
+    hide-icon-on-map: true

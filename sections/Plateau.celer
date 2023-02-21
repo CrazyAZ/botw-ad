@@ -1,0 +1,24 @@
+Plateau:
+- SOR Clip
+- _Equipment::Shield<Pot Lid + Spear>:
+    coord: [-948.75,1963.5581365131984]
+- _Material<3 Shrooms + 6 Peppers>:
+    coord: [-967,1965.1368733581612]
+    notes: Save 3 of each for IST. Can get more food for backup
+- Surf down to TOT, clip through
+- _Equipment::Bow<Bow + Arrow>:
+    coord: [-832,1963.5581365131984]
+- BLSS
+- _Shrine::JaBaij
+- BLSS
+- _Chest<Ruby>:
+    comment: requires DLC
+- _Shrine::OmanAu
+- BLSS + Tree WB
+- _Shrine::OwaDaim
+- Boulder + BLSS
+- _Shrine::KehNamut
+- Plateau:
+    icon: king
+    split-type: UserDefined
+    coord: [-812,1969]

@@ -1,0 +1,66 @@
+Naboris:
+- BLSS to Gerudo Town:
+    icon: location
+    line-color: green
+    movements:
+    - to: [-2464, -1004]
+    - to: [-1916, 316]
+    - to: [-1956, 1568]
+- _Npc<Benja>:
+    coord: [-3804.64, 2818.36]
+- VR Super .dir(NE)
+- Kara Kara Bazar:
+    icon: location
+    coord: [-3264,2608.325643705958]
+    split-type: UserDefined
+- Buy Gerudo Clothes
+- VR Super to Gerudo Town
+- _Shop<All Shock + 10 Ice Arrows>:
+    coord: [-3858.52, 2914.98]
+- _Npc::Gerudo<Riju>:
+    coord: [-3882.5,2964.225811328949]
+- .dir(<<N) Turn to Enemy Camp
+- Boko BTB:
+    coord: [-4123, 2608.5]
+- Moblin BTB:
+    coord: [-3792, 1867.5]
+- Clip in to Yiga Hideout
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 1297.31]
+- Kill .enemy(Kohga):
+    coord: [-3465.60, 1325.95]
+- _Chest::Special<Thunderhelm>:
+    split-type: UserDefined
+    coord: [-3451.00, 1331.50]
+- WB .dir(E) + .dir(W):
+    movements:
+    - to: [-3346.5, 1331]
+    - to: [-3510, 1365]
+- _Npc::Gerudo<BLSS to Riju>:
+    movements:
+    - to: [-3780, 1489]
+    - to: [-3868.85, 2948.96]
+- Urbosa Memory:
+    icon: naboris-memory
+- .dir(E>>) Super:
+    coord: [-3435, 3128.18]
+- _Npc::Gerudo<Riju>
+- Attack on Naboris:
+    movements:
+    - to: [-3248.76, 3289.79]
+      warp: true
+- Ride + WB .dir(NE):
+    coord: [-3152, 3029]
+- BLSS to Naboris:
+    coord: [-2754.62, 3749.44]
+- Shoot feet with bomb arrows:
+    notes: Shoot all from the air in bullet time
+- Enter Naboris:
+    icon: naboris-enter
+    split-type: UserDefined
+- .gale() inside:
+    gale: 2
+- Thunderblight:
+    split-type: UserDefined
+    icon: naboris-done
+    hide-icon-on-map: true

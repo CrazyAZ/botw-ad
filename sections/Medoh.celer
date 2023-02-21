@@ -1,0 +1,46 @@
+Medoh:
+- _Equipment::Weapon<Boko Club>:
+    notes: Jump out of window and bomb the boko
+- BLSS to castle balcony
+- Drop Traveler's Bow
+- _Equipment::Bow<Royal Bow + Arrows>:
+    line-color: yellow
+    coord: [-252.19, -741.07]
+- _Chest<Ancient Arrows>
+- Cycle materials:
+    notes: Drop and pickup all shrooms and peppers. Ruby should be in the first slot
+- WB .dir(E) + Midair to top of pillar
+- BLSS .dir(E) to Fairy Fountain:
+    coord: [-2668, -1110]
+- _Material<2 Fairies>:
+    coord: [-3541.00, -745.00]
+- _Material<3 Mighty Thistles>:
+    notes: Needs to be after fairies for IST
+- WB .dir(N)
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, -1047.30]
+- BLSS .dir(N)
+- _Npc::Rito<Rito Chief>:
+    split-type: UserDefined
+    coord: [-3626.75,-1843.5]
+- Revali Memory:
+    icon: medoh-memory
+- _Shop<Material Shop>
+- __use__ IST
+- .dir(<N) TS
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, -2314.14]
+- _Equipment::Bow<Falcon Bow>:
+    hide-icon-on-map: true
+- Enter Medoh:
+    split-type: UserDefined
+    icon: medoh-enter
+- Windblight:
+    split-type: UserDefined
+    icon: medoh-done
+    hide-icon-on-map: true
+    movements:
+    - to: [-3607.75,-1853.25]
+      warp: true
+- _Equipment::Bow<Great Eagle Bow>:
+    coord: [-3630.37, -1828.17]

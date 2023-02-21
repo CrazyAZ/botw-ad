@@ -1,0 +1,16 @@
+---
+_config: {}
+_project:
+  authors:
+    - CrazyAZ
+  description: All Dungeons Route
+  name: All Dungeons
+  url: "https://github.com/CrazyAZ/botw-ad"
+  version: 0.1.0
+_route:
+  - Plateau: __use__ Plateau
+  - Medoh: __use__ Medoh
+  - Naboris: __use__ Naboris
+  - Ruta: __use__ Ruta
+  - Rudania: __use__ Rudania
+  - Calamity: __use__ Calamity

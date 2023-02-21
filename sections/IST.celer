@@ -1,0 +1,17 @@
+IST:
+- (==) IST START (.link([AD IST Tutorial]https://www.youtube.com/watch?v=NZBmu9hEZY0))
+- Equip Royal Claymore + Pot Lid
+- Eat any extra food
+- (==) SAVE
+- Break 7 slots
+- Drop shield and bow
+- Step aside
+- Drop all weapons
+- Pick up all weapons
+- Unequip weapon
+- (==) RELOAD
+- Shoot 1 arrow
+- (==) SAVE -> RELOAD
+- Sell all rubies
+- .!!(IST Done):
+    notes: You cannot reload a save for the rest of the run or it will break your champion abilities. If practicing, save and quit game.
