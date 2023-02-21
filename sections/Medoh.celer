@@ -9,8 +9,8 @@ Medoh:
 - _Chest<Ancient Arrows>
 - Cycle materials:
     notes: Drop and pickup all shrooms and peppers. Ruby should be in the first slot
-- WB .dir(E) + Midair to top of pillar
-- BLSS .dir(E) to Fairy Fountain:
+- WB .dir(W) + Midair to top of pillar
+- BLSS .dir(W) to Fairy Fountain:
     coord: [-2668, -1110]
 - _Material<2 Fairies>:
     coord: [-3541.00, -745.00]
