@@ -7,7 +7,10 @@ _project:
   name: All Dungeons
   url: "https://github.com/CrazyAZ/botw-ad"
   version: 0.1.0
+
 _route:
+  - (==) This route is the Towerless All Dungeons route used by the current world record (as of February 21, 2023).
+  - (==) .link([World Record VOD]https://youtu.be/CncJje9tV2c) by Player5
   - Plateau: __use__ Plateau
   - Medoh: __use__ Medoh
   - Naboris: __use__ Naboris
